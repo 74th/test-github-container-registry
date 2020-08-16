@@ -20,5 +20,5 @@ jobs:
           username: 74th
           password: ${{ secrets.GITHUB_TOKEN }}
           dockerfile: ./Dockerfile
-          repository: 74th/try-github-as-container-registry/nginx
+          repository: 74th/try-github-container-registry/nginx
           tags: latest
