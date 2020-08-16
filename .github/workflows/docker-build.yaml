@@ -20,5 +20,5 @@ jobs:
           username: 74th
           password: $GITHUB_TOKEN
           dockerfile: ./Dockerfile
-          repository: docker.pkg.github.com/74th/try-github-as-container-registory
+          repository: docker.pkg.github.com/74th/try-github-as-container-registry
           tags: latest
