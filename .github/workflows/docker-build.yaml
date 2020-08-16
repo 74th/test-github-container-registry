@@ -16,7 +16,7 @@ jobs:
       - name: Build and push Docker images
         uses: docker/build-push-action@v1.1.0
         with:
-          registry: https://docker.pkg.github.com
+          registry: docker.pkg.github.com
           username: 74th
           password: $GITHUB_TOKEN
           dockerfile: ./Dockerfile
