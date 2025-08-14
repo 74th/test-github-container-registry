@@ -2,8 +2,7 @@ name: 20250814-basic-docker_build
 # https://docs.github.com/ja/actions/tutorials/publish-packages/publish-docker-images
 
 on:
-  push:
-    workflow_dispatch:
+  workflow_dispatch:
 
 env:
   REGISTRY: ghcr.io
