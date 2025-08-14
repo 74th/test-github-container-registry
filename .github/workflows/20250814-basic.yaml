@@ -1,4 +1,4 @@
-name: 20250814-basic-docker_build
+name: 20250814-basic
 # https://docs.github.com/ja/actions/tutorials/publish-packages/publish-docker-images
 
 on:
