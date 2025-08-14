@@ -18,6 +18,6 @@ jobs:
           registry: docker.pkg.github.com
           username: 74th
           password: ${{ secrets.GITHUB_TOKEN }}
-          dockerfile: ./Dockerfile
+          dockerfile: 20200816-basic/Dockerfile
           repository: 74th/try-github-container-registry/nginx
           tags: latest
