@@ -1,4 +1,4 @@
-name: docker-build
+name: 20200816-basic-docker-build
 
 on:
   workflow_dispatch:
